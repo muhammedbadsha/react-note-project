@@ -1,0 +1,42 @@
+.header-text-area{
+    resize: none;
+    height: 4rem;
+    width: 44rem;
+    background-color: hsl(136, 28%, 81%);
+    border:none;
+    border-bottom: 2px solid  rgb(156, 156, 83);
+
+}
+.body-of-note{
+    margin-left: 1rem;
+    resize: none;
+    height: 17rem;
+    width: 43rem;
+    border:none;
+    background-color: hsl(136, 28%, 81%);
+}
+.text-area{
+    display:flex;
+    flex-direction: column;
+    
+}
+.button-div {
+    width: 44rem;
+    height: 3rem;
+    position: relative; 
+    /* Add position relative to the button-div */
+    pointer-events: auto;
+  }
+  
+  .btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 18px;
+    height: 28px;
+    width: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* Add any other styles to the button */
+  }
+  

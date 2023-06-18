@@ -1,0 +1,82 @@
+
+.sub-app-specific{
+    width: 45rem;
+    display:flex;
+    border-bottom: 3px solid rgb(167, 179, 134);
+    color: rgb(156, 156, 83);
+}
+
+.body-content-left{
+  margin-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 38rem;
+}
+.body-content-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
+  width: 18rem;
+}
+h1{
+margin-bottom: 12px;
+/* width: 2rem; */
+}
+.headers-specific {
+  background-color: hsl(136, 28%, 81%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(156, 156, 83);;
+  resize:none;
+  outline: none;
+  border: none;;
+  border-top-width: 1px;
+  width: 24rem;
+  display: flex;
+
+    
+}
+
+.contents{
+  font-size: medium;
+  background-color: hsl(136, 28%, 81%);
+  resize: none;
+  height: 16rem;
+  margin: 23px;
+  width: 42rem;
+  border: none;
+  outline: none;
+  text-align: center;
+   
+    
+}
+.contents p {
+    list-style-type: none;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40rem;
+    max-height: 20rem;
+    overflow-y: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 14px;
+    max-height: 4px;
+
+  }
+
+  /* ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  } */
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f1f3ef;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+  }
